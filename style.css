@@ -14,7 +14,7 @@
 }
 input, button, select, textarea{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25%;
+    font-size: 29%;
     line-height: inherit;
     color: ivory;
 }
@@ -37,7 +37,16 @@ body{
 }
 .container{
     background-color: ivory;
-    opacity: 55%;
+    opacity: 50%;
     color: black;
     background-size: 10% 45%;
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+.btn{
+    background-color:red;
+}
+#show-contact{
+    display: none;
 }
