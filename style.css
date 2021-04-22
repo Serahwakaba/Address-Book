@@ -35,3 +35,9 @@ body{
     transition-timing-function: ease-in-out, ease-in-out;
     transition-delay: 0s, 0s;
 }
+.container{
+    background-color: ivory;
+    opacity: 55%;
+    color: black;
+    background-size: 10% 45%;
+}
